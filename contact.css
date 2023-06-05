@@ -1,0 +1,49 @@
+/* contact background */ 
+section#contact{ 
+	background-color: rgb(240, 245, 245); 
+	padding-left: 10%; 
+}
+/* contact section */ 
+section { 
+	margin: 0;
+}
+section h1 { 
+	text-align: center; 
+	margin-top: 20px; 
+	font-size: 30px; 
+	font-weight: bolder; 
+	margin-bottom: 10px; 
+	color: black; 
+}
+/* Contact form */ 
+form { 
+	max-width: 500px; 
+}
+
+/* contact text */ 
+label{
+	color: #0a0a0a; 
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+
+}
+form input[type="text"],form input[type="email"],form textarea { 
+	display: block; 
+	width: 200%; 
+	padding: 10px; 
+	margin-bottom: 15px; 
+	border: 1 px solid #ddd; 
+}
+
+form input[type="submit"] { 
+	background-color: #deb887; 
+	color: #fff; 
+	padding: 10px 20px; 
+	border: none; 
+	cursor: pointer; 
+	margin-left: 2%; 
+	margin-bottom: 3%; 
+}
+
+form input[type="submit"]:hover { 
+	background-color: #555; 
+}
